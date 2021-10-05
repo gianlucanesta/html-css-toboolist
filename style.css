@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    height: 80vh;
+    margin: 50px;
+}
+
+body {
+    background-color: #f6f8f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: white;
+}
+
+.logo{
+    display: inline-block;
+    width: 75px;
+    vertical-align: middle;
+    margin: 10px 10px 10px 20px;
+}
+
+.testo-logo {
+    display: inline-block;
+    width: 70%;
+    vertical-align: middle;
+    font-size: 48px;
+    font-weight: 800;
+}
+.intestazione{
+    line-height: 70px;
+}
+    
+.button {
+    margin: 100px 0px 0px 50px;
+    background-color: #47adf1;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px #47adf1;
+    text-decoration: none;
+}
+
+.button-white {
+    color: #e0e3e5;
+    background-color: white;
+    border: 1px solid  #e0e3e5;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+hr {
+    color: #d3d8dc;
+}
+
+.new-task {
+    color: #464a53;
+    margin-top: 50px;
+    margin-left: 50px;
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+li-style {
+    font-size: 20px;
+    font-weight: 200;
+
+}
+
+.sottolista {
+    list-style-type: none;
+}
+
+.check {
+    color: #95d5c6;
+    margin-right: 10px;
+}
